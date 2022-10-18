@@ -16,6 +16,8 @@ go build -ldflags="-s -w"
 music-control-go
 ```
 
+For the first operation, a prompt will ask you for permission, just press `OK`.
+
 ### Shortcuts
 
 - ⌃ ⌥ ⌘ P: play / pause
@@ -55,7 +57,7 @@ put it into `~/Library/LaunchAgents`:
 You can reboot your machine or run:
 
 ```bash
-launchctl load -w ~/Library/LaunchAgents/me.colerar.muisc-control.plist
+launchctl load -w ~/Library/LaunchAgents/me.colerar.music-control.plist
 ```
 
 to make it work immediately.
