@@ -2,3 +2,5 @@
 *.iml
 
 music-control-go
+
+*.tar.*
